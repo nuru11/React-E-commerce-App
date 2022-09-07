@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+/*
+html{
+    height: 100%;
+}
+
+
+/* ========================= head of the page ======================*/
+
+.mycart__header{
+    background-color: darkblue;
+    color: white;
+    height: 50px;
+}
+
+.header-item-parent{
+    display: flex;
+    justify-content: space-between;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 15px;
+color: yellow;
+}
+
+.go-to-home{
+    background-color: transparent;
+    color:dodgerblue;
+    border:1px solid dodgerblue;
+    border-radius: 5px;
+    height: 20px;
+    width: 100px
+}
+
+.title-parent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.price{
+    position: relative;
+    margin-left: 20px;
+}
+
+.quantity{
+    position: relative;
+    margin-left: 30px;
+}
+
+/*===================== body of the page =====================*/
+
+.mycart__main{
+    width: 100%;
+}
+.main-item-parent{
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.mycart-img{
+    width: 50px;
+    height: 50px;
+}
+
+.myCart-remove-btn{
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.mycart-noproduct{
+    font-weight:bolder;
+    font-size: xx-large;
+    margin-left: 50px;
+    margin-top: 20px;
+    color:red;
+}

@@ -1,0 +1,14 @@
+footer{
+    color: black;
+    background-color: #ddd;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.footer__container{
+    margin: auto;
+}
+
+.text{
+    margin-top: 20px;
+}
